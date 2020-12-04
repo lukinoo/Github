@@ -3,9 +3,7 @@ body {
     padding: 0 40px 40px 40px;
     background-color: #FFFFFF;
 }
-header::after {
-    clear: both;
-}
+
 
 .top-text {
     color: #000;
@@ -35,8 +33,9 @@ header::after {
 
 .nav-bar ul li{
     display: inline-block;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .nav-bar li a {
@@ -46,20 +45,35 @@ header::after {
 }
 
 .section-box {
+    float: left;
     width: 570px;
     height: 320px;
     background-color: #23206A;
     color: #fff;
+    margin: 50px 70px 0 70px;
+}
+
+section.section-box::after {
     clear: both;
-    margin: 200px 70px;
 }
 
 .section-box-image {
     float: right;
     width: 150px;
     height: 118px;
+    padding: 20px 20px 0 20px;
 }
 
-.section-image-text {
-    float: left;
+.main-box-text {
+    /* float: left; */
+    padding: 25px 25px 0 25px;
+    font-size: 14px;
+}
+
+
+#section-box-change {
+    float: right;
+    width: 500px;
+    height: 320px;
+    margin-top: -415px;
 }
