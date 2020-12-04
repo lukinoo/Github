@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../fonts/Segoe UI/UI.woff') format('woff');
+    }
+
+/* @font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Myriad\ Pro\ Regular/Regular');
+} */
